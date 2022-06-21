@@ -2,6 +2,7 @@
     max-width: 283px;
     height: 100vh;
     background: #171717;
+    padding: 0 0.5rem;
 }
 
 .sidebar__head {

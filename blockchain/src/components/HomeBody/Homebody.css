@@ -1,0 +1,109 @@
+.homebody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 42.78px;
+}
+
+.homebody__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    height: 40px;
+}
+
+.homebody__header-title {
+    font-family: 'Brinnan';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.homebody__list {
+    margin-right: 10px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homebody__list-item_ethereum {
+    width: 121px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0e0e0e;
+    border: 1px solid #1c1c1c;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.homebody__list-item_ethereum:hover {
+    border: 2px solid rgb(15, 128, 211);
+}
+
+.homebody__list-item_ethereum img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.homebody__list-item_ethereum-text {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #ffffff;
+}
+
+.homebody__list-item_notify {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #0e0e0e;
+    border: 1px solid #1c1c1c;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.homebody__list-item_notify:hover {
+    border: 2px solid rgb(15, 128, 211);
+}
+
+.homebody__list-item_notify .img-bell {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+}
+
+.homebody__list-item_notify .img-alert {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.homebody__list-item_avatar {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .homebody__header {
+        justify-content: flex-end;
+    }
+    .homebody__header-title {
+        display: none;
+    }
+}
