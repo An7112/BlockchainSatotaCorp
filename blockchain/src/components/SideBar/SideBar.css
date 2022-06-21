@@ -2,7 +2,6 @@
     max-width: 283px;
     height: 100vh;
     background: #171717;
-    /* background-color: aqua; */
 }
 
 .sidebar__head {
@@ -87,12 +86,11 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
     .sidebar {
         max-width: 60px;
         height: 100vh;
         background: #171717;
-        /* background-color: aqua; */
     }
     .sidebar__head-text {
         display: none;
