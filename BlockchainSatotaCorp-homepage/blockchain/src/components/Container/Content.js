@@ -53,7 +53,7 @@ export default function Content() {
                         <div className="hactitle">
                             <div className="title-left">
                                 <span>Vaults</span>
-                                <h3>USDTI</h3>
+                                <h3>USDT</h3>
                                 <span>Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
