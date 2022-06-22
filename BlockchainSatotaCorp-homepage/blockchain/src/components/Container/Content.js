@@ -11,8 +11,12 @@ export default function Content() {
                     <span>.Sort by API</span>
                 </div>
                 <div className="header-button">
-                    <button className="btn-header active">Lend</button>
-                    <button className="btn-header">Brrow</button>
+                    <a href="#">
+                        <button className="btn-header active">Lend</button>
+                    </a>
+                    <a href="#">
+                        <button className="btn-header">Borrow</button>
+                    </a>
                 </div>
             </div>
             <div className="content-grid">
@@ -23,6 +27,7 @@ export default function Content() {
                             src={images.USDCIcon}
                             alt="balance"
                         ></img>
+
                         <div className="hactitle">
                             <div className="title-left">
                                 <span>Vaults</span>
@@ -40,6 +45,12 @@ export default function Content() {
                                     <p className="title-left-p">_</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
                         </div>
                     </div>
                 </div>
@@ -68,6 +79,12 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
+                        </div>
                     </div>
                 </div>
                 <div className="box-usdc">
@@ -94,6 +111,12 @@ export default function Content() {
                                     <p className="title-left-p">_</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
                         </div>
                     </div>
                 </div>
@@ -124,6 +147,12 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
+                        </div>
                     </div>
                 </div>
                 <div className="box-usdc">
@@ -151,6 +180,12 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
+                        </div>
                     </div>
                 </div>
                 <div className="box-usdc">
@@ -177,6 +212,12 @@ export default function Content() {
                                     <p className="title-left-p">_</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
                         </div>
                     </div>
                 </div>
@@ -207,6 +248,12 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
+                        </div>
                     </div>
                 </div>
                 <div className="box-usdc">
@@ -234,6 +281,12 @@ export default function Content() {
                                 </div>
                             </div>
                         </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
+                        </div>
                     </div>
                 </div>
                 <div className="box-usdc">
@@ -260,6 +313,12 @@ export default function Content() {
                                     <p className="title-left-p">_</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="dynamic-icon">
+                            <img
+                                className="icon-dynamic"
+                                src={images.DynamicIcon}
+                            ></img>
                         </div>
                     </div>
                 </div>

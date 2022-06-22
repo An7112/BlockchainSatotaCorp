@@ -8,7 +8,7 @@ import "./Homebody.css";
 const HomeBody = () => (
     <div className="homebody">
         <div className="homebody__header">
-            <p className="homebody__header-title">Home</p>
+            <p className="homebody__header-title">Vault</p>
             <div className="homebody__list">
                 <div className="homebody__list-item_ethereum">
                     <img src={images.Rectangle287} alt="rectangle" />
