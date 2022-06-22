@@ -1,0 +1,98 @@
+.assets {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+.assets__name {
+    width: 135px;
+}
+
+.assets__name-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    /* width: 200px; */
+}
+
+.assets__name-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 17px;
+}
+
+.assets__name-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.assets__name-text_title {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.assets__name-text_sub {
+    font-family: 'Brinnan';
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #77838f;
+}
+
+.assets__balance,
+.assets__interest {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 145px;
+    /* margin-left: 5rem; */
+}
+
+.assets__balance-price,
+.assets__interest-price,
+.assets__allocation {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ffffff;
+}
+
+.assets__balance-sub {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #77838f;
+}
+
+.assets__interest-sub {
+    font-family: 'Brinnan';
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #169b00;
+}
+
+.assets__interest-sub span {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #77838f;
+}
