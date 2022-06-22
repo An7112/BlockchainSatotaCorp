@@ -1,6 +1,7 @@
 import React from 'react';
 
 import APY from '../APY/APY';
+import Portfolio from '../Portfolio/Portfolio';
 
 import {images} from '../../constants';
 import './Homebody.css';
@@ -41,6 +42,10 @@ const HomeBody = () => (
             <APY index='#4' src={images.USDCIcon} text='4.05% APY' />
             <APY index='#5' src={images.MATICIcon} text='3.90% APY' />
             <APY index='#6' src={images.BTCIcon} text='3.18% APY' />
+        </div>
+
+        <div className='portfolio-funding__container'>
+            <Portfolio />
         </div>
     </div>
 );
