@@ -2,6 +2,7 @@ import React from 'react';
 
 import APY from '../APY/APY';
 import Portfolio from '../Portfolio/Portfolio';
+import Fund from '../Fund/Fund';
 
 import {images} from '../../constants';
 import './Homebody.css';
@@ -46,6 +47,7 @@ const HomeBody = () => (
 
         <div className='portfolio-funding__container'>
             <Portfolio />
+            <Fund />
         </div>
     </div>
 );

@@ -27,12 +27,28 @@ const Portfolio = () => (
         <div className='graph'>
             <div className='graph__gridbase'>
                 <img src={images.GridBase} alt='gridbase' />
-            </div>
-            <div className='graph__path'>
-                <img className='graph__path-0' src={images.Path0} alt='path0' />
-                <img className='graph__path-1' src={images.Path1} alt='path1' />
-                <img className='graph__path-2' src={images.Path2} alt='path2' />
-                <img className='graph__path-3' src={images.Path3} alt='path3' />
+                <div className='graph__path'>
+                    <img
+                        className='graph__path-0'
+                        src={images.Path0}
+                        alt='path0'
+                    />
+                    <img
+                        className='graph__path-1'
+                        src={images.Path1}
+                        alt='path1'
+                    />
+                    <img
+                        className='graph__path-2'
+                        src={images.Path2}
+                        alt='path2'
+                    />
+                    <img
+                        className='graph__path-3'
+                        src={images.Path3}
+                        alt='path3'
+                    />
+                </div>
             </div>
         </div>
 
