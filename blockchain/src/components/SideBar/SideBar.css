@@ -1,0 +1,106 @@
+.sidebar {
+    max-width: 283px;
+    height: 100vh;
+    background: #171717;
+    padding: 0 0.5rem;
+    position: fixed;
+}
+
+.sidebar__head {
+    padding-top: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar__head-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar__head-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sidebar__head-text_title {
+    font-family: 'Brinnan';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+.sidebar__head-text_desc {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    color: #77838f;
+}
+
+.sidebar__list {
+    margin-top: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar__list-item {
+    margin-bottom: 0.5rem;
+    width: 185px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #0e0e0e 0%, #161616 100%);
+    cursor: pointer;
+}
+
+.sidebar__list-item:hover {
+    border: 2px solid rgb(117, 55, 198);
+}
+
+.sidebar__list-item img {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.sidebar__list-item p {
+    font-family: 'Brinnan';
+    margin-right: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+    .sidebar {
+        max-width: 60px;
+        height: 100vh;
+        background: #171717;
+    }
+    .sidebar__head-text {
+        display: none;
+    }
+    .sidebar__list-item {
+        width: auto;
+    }
+    .sidebar__list-item p {
+        display: none;
+    }
+}
