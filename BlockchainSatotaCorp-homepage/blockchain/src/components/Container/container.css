@@ -4,6 +4,7 @@
 }
 
 .header {
+    margin-top: 50px;
     height: 100px;
     display: flex;
 }
@@ -75,6 +76,10 @@
     display: inline-block;
     text-align: center;
 }
+.title-right span {
+    display: inline-block;
+    text-align: center;
+}
 
 .title-right {
     position: relative;
@@ -87,7 +92,7 @@
 .usdc-item img {
     position: relative;
 
-    left: 70px;
+    left: 130px;
     top: -50px;
     margin-left: 17px;
 }
@@ -98,9 +103,9 @@
 }
 
 .usdc-item {
-    width: 270px;
-    height: 154px;
-    margin-left: 30%;
+    width: 400px;
+    height: 180px;
+    /* margin-left: 30%; */
     background-color: gray;
     background: #0e0e0e;
     border: 2px solid #1c1c1c;
@@ -120,7 +125,7 @@
     margin-left: 35%;
 }
 .box-usdc {
-    margin: 10px 130px;
+    margin: 10px 70px;
 }
 .color-text p,
 h3,
@@ -138,7 +143,7 @@ span {
 .dynamic-icon img {
     position: relative;
     top: -200px;
-    left: 140px;
+    left: 200px;
     width: 30px;
     height: 30px;
     background: #000;

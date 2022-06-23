@@ -31,8 +31,8 @@ export default function Content() {
                         <div className="hactitle">
                             <div className="title-left">
                                 <span>Vaults</span>
-                                <h3>USDC</h3>
-                                <span>Balance</span>
+                                <h3>USDC</h3>.<br />
+                                <span className="balance-title">Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
                                 </div>
@@ -40,7 +40,8 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>7,42%</h3>
-                                <span>Earning</span>
+                                <br />
+                                <span className="balance-title">Earnings</span>
                                 <div>
                                     <p className="title-left-p">_</p>
                                 </div>
@@ -65,6 +66,7 @@ export default function Content() {
                             <div className="title-left">
                                 <span>Vaults</span>
                                 <h3>USDT</h3>
+                                <br />
                                 <span>Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
@@ -73,6 +75,7 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>9,58%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
@@ -98,6 +101,7 @@ export default function Content() {
                             <div className="title-left">
                                 <span>Vaults</span>
                                 <h3>BUSD</h3>
+                                <br />
                                 <span>Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
@@ -106,6 +110,7 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>3,77%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
@@ -133,6 +138,7 @@ export default function Content() {
                             <div className="title-left">
                                 <span>Vaults</span>
                                 <h3>BTC</h3>
+                                <br />
                                 <span>Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
@@ -141,6 +147,7 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>3,64%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
@@ -166,6 +173,7 @@ export default function Content() {
                             <div className="title-left">
                                 <span>Vaults</span>
                                 <h3>ETH</h3>
+                                <br />
                                 <span>Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
@@ -174,6 +182,7 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>4,82%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
@@ -199,6 +208,7 @@ export default function Content() {
                             <div className="title-left">
                                 <span>Vaults</span>
                                 <h3>BNB</h3>
+                                <br />
                                 <span>Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
@@ -207,6 +217,7 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>5,19%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
@@ -234,6 +245,7 @@ export default function Content() {
                             <div className="title-left">
                                 <span>Vaults</span>
                                 <h3>AVAX</h3>
+                                <br />
                                 <span>Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
@@ -242,6 +254,7 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>4,12%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
@@ -267,6 +280,7 @@ export default function Content() {
                             <div className="title-left">
                                 <span>Vaults</span>
                                 <h3>USDC</h3>
+                                <br />
                                 <span>DOT</span>
                                 <div>
                                     <p className="title-right-p">_</p>
@@ -275,6 +289,7 @@ export default function Content() {
                             <div className="title-right">
                                 <span>APY</span>
                                 <h3>3,98%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
@@ -300,7 +315,8 @@ export default function Content() {
                             <div className="title-left color-text">
                                 <span>Vaults</span>
                                 <h3>MATIC</h3>
-                                <span>Balance</span>
+                                <br />
+                                <span className="balance">Balance</span>
                                 <div>
                                     <p className="title-right-p">_</p>
                                 </div>
@@ -308,6 +324,7 @@ export default function Content() {
                             <div className="title-right color-text">
                                 <span>APY</span>
                                 <h3>2,63%</h3>
+                                <br />
                                 <span>Earning</span>
                                 <div>
                                     <p className="title-left-p">_</p>
