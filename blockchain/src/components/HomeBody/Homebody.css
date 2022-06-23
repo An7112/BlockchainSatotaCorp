@@ -5,6 +5,10 @@
     margin-left: 42.78px;
 }
 
+.homebody__head-logo {
+    display: none;
+}
+
 .homebody__header {
     display: flex;
     justify-content: space-between;
@@ -125,6 +129,10 @@
     display: flex;
     margin-top: 33px;
     align-items: center;
+}
+
+.btn__fund-vaults_mb {
+    display: none;
 }
 
 .assets__content-mb {
@@ -263,6 +271,12 @@
         align-items: center;
     }
 
+    .homebody__head-logo {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
     .homebody__header {
         justify-content: space-between;
     }
@@ -283,7 +297,35 @@
     }
     .portfolio-funding__container {
         width: unset;
-        margin: 33px auto 1rem auto;
+        margin: 33px auto 20.5px auto;
+    }
+
+    .btn__fund-vaults_mb {
+        display: block;
+    }
+
+    .btn__fund-mb,
+    .btn__vaults-mb {
+        width: 152px;
+        height: 44px;
+        border-radius: 12px;
+        font-family: 'Brinnan';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        background: linear-gradient(180deg, #292a2d 0%, #1c1c1c 100%);
+        color: #ffffff;
+    }
+
+    .btn__fund-mb:hover,
+    .btn__vaults-mb:hover {
+        background: #000000;
+        border: 2px solid rgb(44, 149, 194);
+    }
+
+    .btn__fund-mb {
+        margin-right: 24px;
     }
 
     .wrapper__assets-notify {

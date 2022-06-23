@@ -12,7 +12,7 @@ import './Homebody.css';
 const HomeBody = () => (
     <div className='homebody'>
         <div className='homebody__header'>
-            <div className='sidebar__head-logo'>
+            <div className='homebody__head-logo'>
                 <img src={images.DynamicIcon} alt='dynamicicon' />
             </div>
             <p className='homebody__header-title'>Home</p>
@@ -56,6 +56,15 @@ const HomeBody = () => (
         <div className='portfolio-funding__container'>
             <Portfolio />
             <Fund />
+        </div>
+
+        <div className='btn__fund-vaults_mb'>
+            <button type='button' className='btn__fund-mb'>
+                Funding
+            </button>
+            <button type='button' className='btn__vaults-mb'>
+                Vaults
+            </button>
         </div>
 
         <div className='wrapper__assets-notify'>
