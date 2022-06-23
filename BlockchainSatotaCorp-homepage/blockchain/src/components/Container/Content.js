@@ -20,325 +20,347 @@ export default function Content() {
                 </div>
             </div>
             <div className="content-grid">
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.USDCIcon}
-                            alt="balance"
-                        ></img>
+                <a href="#modal1" className="button">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
+                            <img
+                                style={{ height: "100px" }}
+                                src={images.USDCIcon}
+                                alt="balance"
+                            ></img>
 
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>USDC</h3>.<br />
-                                <span className="balance-title">Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>USDC</h3>.<br />
+                                    <span className="balance-title">
+                                        Balance
+                                    </span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>7,42%</h3>
+                                    <br />
+                                    <span className="balance-title">
+                                        Earnings
+                                    </span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>7,42%</h3>
-                                <br />
-                                <span className="balance-title">Earnings</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
                             </div>
-                        </div>
-                        <div className="dynamic-icon">
-                            <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
-                            ></img>
                         </div>
                     </div>
-                </div>
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.USDTIcon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>USDT</h3>
-                                <br />
-                                <span>Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>9,58%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                </a>
+                <a href="#modal2" className="button">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.USDTIcon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>USDT</h3>
+                                    <br />
+                                    <span>Balance</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>9,58%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.BUSDICon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>BUSD</h3>
-                                <br />
-                                <span>Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>3,77%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                </a>
+                <a href="#modal3" className="button">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.BUSDICon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>BUSD</h3>
+                                    <br />
+                                    <span>Balance</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>3,77%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div className="content-grid">
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.BTCIcon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>BTC</h3>
-                                <br />
-                                <span>Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>3,64%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                <a href="#modal4">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.BTCIcon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>BTC</h3>
+                                    <br />
+                                    <span>Balance</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>3,64%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.ETHIcon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>ETH</h3>
-                                <br />
-                                <span>Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>4,82%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                </a>
+                <a href="#modal5">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.ETHIcon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>ETH</h3>
+                                    <br />
+                                    <span>Balance</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>4,82%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.BNBIcon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>BNB</h3>
-                                <br />
-                                <span>Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>5,19%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                </a>
+                <a href="#modal6">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.BNBIcon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>BNB</h3>
+                                    <br />
+                                    <span>Balance</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>5,19%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div className="content-grid">
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.AVAXIcon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>AVAX</h3>
-                                <br />
-                                <span>Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>4,12%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                <a href="#modal7">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.AVAXIcon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>AVAX</h3>
+                                    <br />
+                                    <span>Balance</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>4,12%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.DOTIcon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left">
-                                <span>Vaults</span>
-                                <h3>USDC</h3>
-                                <br />
-                                <span>DOT</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right">
-                                <span>APY</span>
-                                <h3>3,98%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                </a>
+                <a href="#modal8">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.DOTIcon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>USDC</h3>
+                                    <br />
+                                    <span>DOT</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>3,98%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="box-usdc">
-                    <div className="usdc-item">
-                        <img
-                            style={{ height: "100px" }}
-                            src={images.MATICIcon}
-                            alt="balance"
-                        ></img>
-                        <div className="hactitle">
-                            <div className="title-left color-text">
-                                <span>Vaults</span>
-                                <h3>MATIC</h3>
-                                <br />
-                                <span className="balance">Balance</span>
-                                <div>
-                                    <p className="title-right-p">_</p>
-                                </div>
-                            </div>
-                            <div className="title-right color-text">
-                                <span>APY</span>
-                                <h3>2,63%</h3>
-                                <br />
-                                <span>Earning</span>
-                                <div>
-                                    <p className="title-left-p">_</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="dynamic-icon">
+                </a>
+                <a href="#modal9">
+                    <div className="box-usdc">
+                        <div className="usdc-item">
                             <img
-                                className="icon-dynamic"
-                                src={images.DynamicIcon}
+                                style={{ height: "100px" }}
+                                src={images.MATICIcon}
+                                alt="balance"
                             ></img>
+                            <div className="hactitle">
+                                <div className="title-left">
+                                    <span>Vaults</span>
+                                    <h3>USDC</h3>
+                                    <br />
+                                    <span>DOT</span>
+                                    <div>
+                                        <p className="title-right-p">_</p>
+                                    </div>
+                                </div>
+                                <div className="title-right">
+                                    <span>APY</span>
+                                    <h3>3,98%</h3>
+                                    <br />
+                                    <span>Earning</span>
+                                    <div>
+                                        <p className="title-left-p">_</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="dynamic-icon">
+                                <img
+                                    className="icon-dynamic"
+                                    src={images.DynamicIcon}
+                                ></img>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     );
