@@ -105,15 +105,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 650px) {
-    .homebody__header {
-        justify-content: flex-end;
-    }
-    .homebody__header-title {
-        display: none;
-    }
-}
-
 .APY__container {
     min-height: 50px;
     width: 99%;
@@ -122,7 +113,7 @@
     border-radius: 12px;
     margin-top: 27px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
     margin-right: 50px;
@@ -136,11 +127,8 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
-    .portfolio-funding__container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.assets__content-mb {
+    display: none;
 }
 
 .assets__container {
@@ -152,7 +140,7 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 28px 0;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
     flex: 1;
 }
 
@@ -240,4 +228,97 @@
     margin: 19px 0 27px 30px;
 
     color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolio-funding__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .APY__container {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .APY__container-fluid {
+        display: block;
+        width: 800px;
+        /* margin-right: 1rem; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .homebody {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homebody__header {
+        justify-content: space-between;
+    }
+    .homebody__header-title {
+        display: none;
+    }
+    .APY__container {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .APY__container-fluid {
+        display: block;
+        width: 300px;
+    }
+    .portfolio-funding__container {
+        width: unset;
+        margin: 33px auto 1rem auto;
+    }
+
+    .wrapper__assets-notify {
+        margin-bottom: 3rem;
+    }
+
+    .assets__container {
+        width: 100%;
+    }
+
+    .assets__content {
+        display: none;
+    }
+
+    .assets__content-mb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homebody__list {
+        justify-content: flex-end;
+    }
+
+    .homebody__list p {
+        display: none;
+    }
+
+    .homebody__list-item_ethereum {
+        width: 35px;
+    }
+    .homebody__list-item_notify {
+        margin: 0 2rem;
+    }
+
+    .notify__container {
+        display: none;
+    }
 }

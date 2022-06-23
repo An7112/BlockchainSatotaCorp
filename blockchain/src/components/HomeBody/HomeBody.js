@@ -12,6 +12,9 @@ import './Homebody.css';
 const HomeBody = () => (
     <div className='homebody'>
         <div className='homebody__header'>
+            <div className='sidebar__head-logo'>
+                <img src={images.DynamicIcon} alt='dynamicicon' />
+            </div>
             <p className='homebody__header-title'>Home</p>
             <div className='homebody__list'>
                 <div className='homebody__list-item_ethereum'>
@@ -39,14 +42,15 @@ const HomeBody = () => (
                 </div>
             </div>
         </div>
-
-        <div className='APY__container'>
-            <APY index='#1' src={images.DOTIcon} text='10.07% APY' />
-            <APY index='#2' src={images.USDTIcon} text='9.58% APY' />
-            <APY index='#3' src={images.AVAXIcon} text='5.19% APY' />
-            <APY index='#4' src={images.USDCIcon} text='4.05% APY' />
-            <APY index='#5' src={images.MATICIcon} text='3.90% APY' />
-            <APY index='#6' src={images.BTCIcon} text='3.18% APY' />
+        <div className='APY__container-fluid'>
+            <div className='APY__container'>
+                <APY index='#1' src={images.DOTIcon} text='10.07% APY' />
+                <APY index='#2' src={images.USDTIcon} text='9.58% APY' />
+                <APY index='#3' src={images.AVAXIcon} text='5.19% APY' />
+                <APY index='#4' src={images.USDCIcon} text='4.05% APY' />
+                <APY index='#5' src={images.MATICIcon} text='3.90% APY' />
+                <APY index='#6' src={images.BTCIcon} text='3.18% APY' />
+            </div>
         </div>
 
         <div className='portfolio-funding__container'>
@@ -114,10 +118,41 @@ const HomeBody = () => (
                         percent='7.7%'
                     />
                 </div>
+
+                <div className='assets__content-mb'>
+                    <Assets
+                        src={images.USDCIcon}
+                        title='USD Coin'
+                        sub='USDC'
+                        interestPrice='$9,131.78'
+                        interestSub='+$9,131.78'
+                    />
+                    <Assets
+                        src={images.BTCIcon}
+                        title='Bitcoin'
+                        sub='BTC'
+                        interestPrice='$9,131.78'
+                        interestSub='+$9,131.78'
+                    />
+                    <Assets
+                        src={images.AVAXIcon}
+                        title='USD Coin'
+                        sub='USDC'
+                        interestPrice='$9,131.78'
+                        interestSub='+$9,131.78'
+                    />
+                    <Assets
+                        src={images.DOTIcon}
+                        title='USD Coin'
+                        sub='USDC'
+                        interestPrice='$9,131.78'
+                        interestSub='+$9,131.78'
+                    />
+                </div>
             </div>
 
             <div className='notify__container'>
-            <p className='notify__title'>Notifications</p>
+                <p className='notify__title'>Notifications</p>
                 <Notify
                     status='Account activity'
                     action='You added 3,000 USDC'

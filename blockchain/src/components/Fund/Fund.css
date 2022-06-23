@@ -234,3 +234,9 @@
         margin-top: 2rem;
     }
 }
+@media screen and (max-width: 650px) {
+    .fund {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
