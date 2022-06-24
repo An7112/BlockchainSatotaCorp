@@ -1,0 +1,542 @@
+
+.homebody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 42.78px;
+}
+.dropdown {
+    position: absolute;
+    width: 360px;
+    height: 604px;
+    left: 1331px;
+    top: 82px;
+    right: 37px;
+    bottom: 431px;
+    background: #0E0E0E;
+    border: 2px solid #1C1C1C;
+    border-radius: 32px;
+    color: white;
+}
+
+.dropdown-rectangle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 308px;
+    top: 22px;
+
+    border: 2px solid #1C1C1C;
+    border-radius: 500px;
+}
+
+.img-close {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+
+    left: 314px;
+    top: 28px;
+
+}
+
+
+.profile-pic {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 140px;
+    top: 37px;
+
+    border: 2px solid #474747;
+    border-radius: 500px;
+}
+
+.text-paren,
+.text-child {
+    position: absolute;
+    width: 172px;
+    height: 25px;
+    left: 94px;
+    right: 94px;
+    bottom: 425px;
+    top: 154px;
+
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.text-child {
+    width: 229px;
+    height: 25px;
+    left: 65px;
+    top: 190px;
+
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #77838F;
+
+}
+
+.button-rectangle {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 207px;
+    height: 56px;
+    left: 76px;
+    top: 240px;
+
+    border: 1px solid #2F2F2F;
+    border-radius: 12px;
+}
+
+.text-settings {
+    position: absolute;
+    width: 155px;
+    height: 37px;
+    left: 102px;
+    top: 250px;
+    text-decoration: none;
+
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.text,
+.doc {
+    position: absolute;
+    width: 143px;
+    height: 35px;
+    left: 37px;
+    top: 320px;
+    text-decoration: none;
+
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.line-acc {
+    position: absolute;
+    width: 286px;
+    height: 0px;
+    left: 37px;
+    top: 367px;
+
+    border: 1px solid #2F2F2F;
+}
+
+.referrals {
+    top: 378px;
+}
+
+.line2 {
+    top: 426px;
+}
+
+.help-center {
+    top: 437px;
+}
+
+.line3 {
+    top: 485px;
+}
+
+.notifications {
+    top: 496px;
+}
+
+.line4 {
+    top: 541px;
+}
+
+.sign-out {
+    top: 552px;
+    color: #FF5C5C;
+}
+.homebody__head-logo {
+    display: none;
+}
+
+.homebody__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 4, 4);
+    height: 78px;
+}
+
+.homebody__header-title {
+    font-family: 'Brinnan';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.homebody__list {
+    margin-right: 10px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homebody__list-item_ethereum {
+    width: 121px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0e0e0e;
+    border: 1px solid #1c1c1c;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.homebody__list-item_ethereum:hover {
+    border: 2px solid rgb(15, 128, 211);
+}
+
+.homebody__list-item_ethereum img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.homebody__list-item_ethereum-text {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #ffffff;
+}
+
+.homebody__list-item_notify {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #0e0e0e;
+    border: 1px solid #1c1c1c;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.homebody__list-item_notify:hover {
+    border: 2px solid rgb(15, 128, 211);
+}
+
+.homebody__list-item_notify .img-bell {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+}
+
+.homebody__list-item_notify .img-alert {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.dash {
+    width: 1px;
+    height: 30px;
+    background-color: #1c1c1c;
+}
+
+.homebody__list-item_avatar {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.APY__container {
+    min-height: 50px;
+    width: 99%;
+    background: #0e0e0e;
+    border: 2px solid #1c1c1c;
+    border-radius: 12px;
+    margin-top: 27px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    padding: 0 1rem;
+}
+
+.portfolio-funding__container {
+    width: 100%;
+    display: flex;
+    margin-top: 33px;
+    align-items: center;
+}
+
+.btn__fund-vaults_mb {
+    display: none;
+}
+
+.assets__content-mb {
+    display: none;
+}
+
+.assets__container {
+    width: 1002px;
+    background: #0e0e0e;
+    border: 2px solid #1c1c1c;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 28px 0;
+    margin-bottom: 3rem;
+    flex: 1;
+}
+
+.assets__head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 33px;
+    margin-left: 40px;
+}
+
+.assets__head-title {
+    font-family: 'Brinnan';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.assets__head-title_sub {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+.assets__head-desc {
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #77838f;
+}
+
+.assets__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.assets__content-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    font-family: 'Brinnan';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #77838f;
+}
+
+.assets__content-item_balance {
+    padding-left: 1.5rem;
+}
+
+.assets__content-item_interest {
+    padding-left: 1.5rem;
+}
+
+.wrapper__assets-notify {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 33px;
+}
+
+.notify__container {
+    width: 351px;
+    height: auto;
+    background: #0e0e0e;
+    border: 2px solid #1c1c1c;
+    border-radius: 24px;
+    margin-left: 31px;
+    margin-right: 15px;
+}
+
+.notify__title {
+    font-family: 'Brinnan';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 19px 0 27px 30px;
+
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolio-funding__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .APY__container {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .APY__container-fluid {
+        display: block;
+        width: 800px;
+        /* margin-right: 1rem; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .homebody {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homebody__head-logo {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .homebody__header {
+        justify-content: space-between;
+    }
+    .homebody__header-title {
+        display: none;
+    }
+    .APY__container {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .APY__container-fluid {
+        display: block;
+        width: 300px;
+    }
+    .portfolio-funding__container {
+        width: unset;
+        margin: 33px auto 20.5px auto;
+    }
+
+    .btn__fund-vaults_mb {
+        display: block;
+    }
+
+    .btn__fund-mb,
+    .btn__vaults-mb {
+        width: 152px;
+        height: 44px;
+        border-radius: 12px;
+        font-family: 'Brinnan';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        background: linear-gradient(180deg, #292a2d 0%, #1c1c1c 100%);
+        color: #ffffff;
+    }
+
+    .btn__fund-mb:hover,
+    .btn__vaults-mb:hover {
+        background: #000000;
+        border: 2px solid rgb(44, 149, 194);
+    }
+
+    .btn__fund-mb {
+        margin-right: 24px;
+    }
+
+    .wrapper__assets-notify {
+        margin-bottom: 3rem;
+    }
+
+    .assets__container {
+        width: 100%;
+    }
+
+    .assets__content {
+        display: none;
+    }
+
+    .assets__content-mb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homebody__list {
+        justify-content: flex-end;
+    }
+
+    .homebody__list p {
+        display: none;
+    }
+
+    .homebody__list-item_ethereum {
+        width: 35px;
+    }
+    .homebody__list-item_notify {
+        margin: 0 2rem;
+    }
+
+    .notify__container {
+        display: none;
+    }
+}
