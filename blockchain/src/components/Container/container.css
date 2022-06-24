@@ -1,0 +1,157 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+}
+
+.header-title {
+    display: flex;
+    padding: 10px;
+}
+.content-grid {
+    display: flex;
+}
+
+.header-title h2 {
+    color: #fff;
+}
+
+.header-title span {
+    color: gray;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.header-button {
+    margin-left: 70%;
+    height: 50px;
+    width: 180px;
+    border: 1px solid rgb(58, 54, 54);
+    border-radius: 11px;
+    display: flex;
+}
+.btn-header {
+    color: gray;
+    font-family: "Brinnan";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: black;
+    height: 60%;
+    margin-left: 13px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    color: #fff;
+    border: 1px solid rgb(69, 69, 74);
+    background: rgb(69, 69, 74);
+}
+
+.content-grid {
+    height: 241px;
+}
+
+.item-title {
+    display: flex;
+}
+
+.title-left {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: -55%;
+}
+
+.title-left span {
+    display: inline-block;
+    text-align: center;
+}
+.title-right span {
+    display: inline-block;
+    text-align: center;
+}
+
+.title-right {
+    position: relative;
+    top: -55%;
+
+    width: 50%;
+    text-align: center;
+}
+
+.usdc-item img {
+    position: relative;
+
+    left: 130px;
+    top: -50px;
+    margin-left: 17px;
+}
+
+.hactitle {
+    display: flex;
+    height: 100px;
+}
+
+.usdc-item {
+    width: 400px;
+    height: 180px;
+    /* margin-left: 30%; */
+    background-color: gray;
+    background: #0e0e0e;
+    border: 2px solid #1c1c1c;
+    border-radius: 50px;
+}
+.title-right-p {
+    /* float: left; */
+    color: #fff;
+    margin-right: 35%;
+    font-weight: 1000;
+}
+.title-left-p {
+    /* float: right; */
+    font-weight: 1000;
+    color: #fff;
+
+    margin-left: 35%;
+}
+.box-usdc {
+    margin: 10px 70px;
+}
+.color-text p,
+h3,
+span {
+    color: #fff;
+}
+.icon-dynamic {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: -30px;
+    z-index: 1;
+    top: 10%;
+}
+.dynamic-icon img {
+    position: relative;
+    top: -200px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    border-radius: 50%;
+
+    border: 1px solid #1c1c1c;
+}
+/* modal */
+a {
+    text-decoration: none;
+}
