@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AccountPopup from './components/AccountPopup/AccountPopup';
 import Notifications from './components/Notifications/Notifications';
 import Referrals from './components/Referrals/Referrals';
-import Settings from './components/Settings/Settings';
+import Settings from './components/Settingss/Settings';
 
 
 import './App.css';

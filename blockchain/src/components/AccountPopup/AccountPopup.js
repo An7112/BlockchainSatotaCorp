@@ -15,7 +15,7 @@ export default function AccountPopup({ children, open, onClose }) {
                 <div><p className="text-paren">@cameron</p></div>
                 <div><p className="text-child">cameron@email.com</p></div>
                 <div className='button-rectangle'></div>
-                <Link to='/Settings' className='text-settings'>Settings</Link>
+                <Link to='/Settingss' className='text-settings'>Settings</Link>
                 <a href='#' className='text doc'>Docs</a>
                 <div className='line-acc line1'></div>
                 <Link to='/Referrals' className='text referrals'>Referrals</Link>
