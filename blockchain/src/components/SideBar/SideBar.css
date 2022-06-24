@@ -131,3 +131,9 @@
         justify-content: space-around;
     }
 }
+
+@media screen and (max-width: 1920px) {
+    .sidebar {
+        padding: 0;
+    }
+}
