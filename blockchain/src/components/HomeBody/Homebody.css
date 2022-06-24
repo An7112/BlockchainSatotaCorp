@@ -366,7 +366,7 @@
         justify-content: flex-end;
     }
 
-    .homebody__list p {
+    .homebody__list-item_ethereum-text {
         display: none;
     }
 

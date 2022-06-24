@@ -8,7 +8,7 @@ const Network = () => (
     <div id='network__modal'>
         <div className='network'>
             <div className='network__head'>
-                <p>Network</p>
+                <p className='network__head-title'>Network</p>
                 <a href='# ' className='close__btn'>
                     X
                 </a>

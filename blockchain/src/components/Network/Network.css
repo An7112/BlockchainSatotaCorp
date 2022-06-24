@@ -28,7 +28,7 @@
     background: #0e0e0e;
     border: 2px solid #1c1c1c;
     border-radius: 24px;
-    z-index: 999999999;
+    z-index: 99999;
 }
 
 .network__head {
@@ -39,7 +39,7 @@
     margin: 0 35px;
 }
 
-.network__head p {
+.network__head-title {
     font-family: 'Brinnan';
 
     font-weight: 700;
@@ -142,4 +142,25 @@
         top: -100%;
         opacity: 0;
     }
+}
+
+@media screen and (max-width: 650px) {
+    #network__modal {
+        width: 100%;
+    }
+
+    .network {
+        width: 80%;
+    }
+    .network__list-item {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .network__list {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
 }
