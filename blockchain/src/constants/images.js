@@ -22,6 +22,11 @@ import TransferIcon from '../assets/TransferIcon.png';
 import USDCIcon from '../assets/USDCIcon.png';
 import USDTIcon from '../assets/USDTIcon.png';
 import VaultsIcon from '../assets/VaultsIcon.png';
+import Binance from '../assets/Binance.png';
+import Polygon from '../assets/Polygon.png';
+import Polygon2 from '../assets/Polygon2.png';
+
+
 
 export default {
     AVAXIcon,
@@ -48,4 +53,7 @@ export default {
     USDCIcon,
     USDTIcon,
     VaultsIcon,
+    Binance,
+    Polygon,
+    Polygon2
 };

@@ -112,27 +112,23 @@
 .graph__path-0 {
     position: absolute;
     bottom: 0;
-    /* width: 100% */
     z-index: 2;
 }
 .graph__path-1 {
     position: absolute;
     bottom: 0;
-    /* width: 100%; */
     z-index: 3;
 }
 
 .graph__path-2 {
     position: absolute;
     bottom: 0;
-    /* width: 100%; */
     z-index: 4;
 }
 
 .graph__path-3 {
     position: absolute;
     bottom: 0;
-    /* width: 100%; */
     z-index: 5;
 }
 

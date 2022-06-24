@@ -5,6 +5,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import Fund from '../Fund/Fund';
 import Assets from '../Assets/Assets';
 import Notify from '../Notify/Notify';
+import Network from '../Network/Network';
 
 import {images} from '../../constants';
 import './Homebody.css';
@@ -17,11 +18,14 @@ const HomeBody = () => (
             </div>
             <p className='homebody__header-title'>Home</p>
             <div className='homebody__list'>
-                <div className='homebody__list-item_ethereum'>
+                <a href='#overlay' className='homebody__list-item_ethereum'>
                     <img src={images.Rectangle287} alt='rectangle' />
                     <p className='homebody__list-item_ethereum-text'>
                         Ethereum
                     </p>
+                </a>
+                <div id='overlay'>
+                    <Network />
                 </div>
                 <div className='homebody__list-item_notify'>
                     <img
@@ -55,7 +59,9 @@ const HomeBody = () => (
 
         <div className='portfolio-funding__container'>
             <Portfolio />
-            <Fund />
+            <div className='fund__container'>
+                <Fund />
+            </div>
         </div>
 
         <div className='btn__fund-vaults_mb'>
@@ -158,6 +164,10 @@ const HomeBody = () => (
                         interestSub='+$9,131.78'
                     />
                 </div>
+            </div>
+
+            <div className='fund__container-mb'>
+                <Fund />
             </div>
 
             <div className='notify__container'>
