@@ -6,178 +6,110 @@
 
 .dropdown {
     position: absolute;
+    left: 920px;
+    justify-content: left;
     width: 360px;
     height: 604px;
-    left: 900px;
-    top: 82px;
-    right: 37px;
-    bottom: 431px;
     background: #0E0E0E;
     border: 2px solid #1C1C1C;
     border-radius: 32px;
     color: white;
     z-index: 1;
 }
+.dropdown-box-close{
+    width: 100%;
+    height: 50px;
+}
 
 .dropdown-rectangle {
-    position: absolute;
+    float: right;
+    margin: 15px;
     width: 30px;
     height: 30px;
-    left: 308px;
-    top: 22px;
-
     border: 2px solid #1C1C1C;
     border-radius: 500px;
 }
 
 .img-close {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-
-    left: 314px;
-    top: 28px;
+    margin: 4px;
 
 }
-
-
-.profile-pic {
-    box-sizing: border-box;
-
-    position: absolute;
+.dropdown-box-avata{
+    width: 100%;
+    height: 100px;
+    border-radius: 32px;
+    margin-top: 20px;
+    margin: 0;
+}
+.dropdown-profile-pic{
+    margin: 0 auto;
     width: 80px;
     height: 80px;
-    left: 140px;
-    top: 37px;
+    box-sizing: border-box;
+    border-radius: 50%;
 
-    border: 2px solid #474747;
-    border-radius: 500px;
 }
 
-.text-paren,
-.text-child {
-    position: absolute;
-    width: 172px;
+
+.text-paren {
+    width: 100%;
     height: 25px;
-    left: 94px;
-    right: 94px;
-    bottom: 425px;
-    top: 154px;
-
     font-family: 'Brinnan';
-    font-style: normal;
-    font-weight: 700px;
     font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
+    margin-top: 27px;
     color: #FFFFFF;
 }
 
 .text-child {
-    width: 229px;
+    width: 100%;
+    font-family: 'Brinnan';
     height: 25px;
-    left: 65px;
-    top: 190px;
-
-    font-weight: 400px;
     font-size: 18px;
-    line-height: 21px;
-
     color: #77838F;
-
+    text-align: center;
+    margin-top: 11px;
 }
 
 .button-rectangle {
     box-sizing: border-box;
-
-    position: absolute;
     width: 207px;
     height: 56px;
-    left: 76px;
-    top: 240px;
-
+    margin: 25px auto;
     border: 1px solid #2F2F2F;
     border-radius: 12px;
+    position: relative;
 }
 
 .text-settings {
-    position: absolute;
-    width: 155px;
-    height: 37px;
-    left: 102px;
-    top: 250px;
-    text-decoration: none;
-
     font-family: 'Brinnan';
-    font-style: normal;
-    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
     font-size: 18px;
     line-height: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #FFFFFF;
+    position: absolute;
+    top: 15px;
+    left: 65px;    
 }
 
-.text,
-.doc {
-    position: absolute;
+.text {
+    
     width: 143px;
     height: 35px;
-    left: 37px;
-    top: 320px;
-    text-decoration: none;
-
-    font-family: 'Brinnan';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
     line-height: 22px;
-    display: flex;
-    align-items: center;
-
+    margin-left: 37px;
+    text-decoration: none;
+    font-family: 'Brinnan';
+    font-size: 18px;
     color: #FFFFFF;
 }
 
 .line-acc {
-    position: absolute;
+    margin: 12px auto;
     width: 286px;
     height: 0px;
-    left: 37px;
-    top: 367px;
-
     border: 1px solid #2F2F2F;
 }
-
-.referrals {
-    top: 378px;
-}
-
-.line2 {
-    top: 426px;
-}
-
-.help-center {
-    top: 437px;
-}
-
-.line3 {
-    top: 485px;
-}
-
-.notifications {
-    top: 496px;
-}
-
-.line4 {
-    top: 541px;
-}
-
-.sign-out {
-    top: 552px;
+.sign-out{
     color: #FF5C5C;
 }
