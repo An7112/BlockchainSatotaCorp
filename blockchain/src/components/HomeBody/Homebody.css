@@ -252,6 +252,7 @@
     display: none;
 }
 
+
 @media screen and (max-width: 650px) {
     .homebody {
         margin-left: 0;
@@ -377,7 +378,7 @@
 
     .APY__container-fluid {
         display: block;
-        width: 800px;
+        /* width: 800px; */
         /* margin-right: 1rem; */
         margin: 0 auto;
     }
