@@ -198,6 +198,7 @@
 .assets__content {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .assets__content-list {
@@ -251,11 +252,6 @@
 .fund__container-mb {
     display: none;
 }
-/* @media screen and (max-width: 400px) {
-    .APY__container-fluid {
-        width: 300px;
-    }
-} */
 
 @media screen and (max-width: 900px) {
     .APY__container {

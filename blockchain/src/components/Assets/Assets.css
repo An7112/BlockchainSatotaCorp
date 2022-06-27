@@ -116,6 +116,10 @@
     }
 
     .assets__balance,
+    .assets__allocation {
+        display: none;
+    }
+
     .assets__interest {
         width: 0;
         margin-left: 1em;
