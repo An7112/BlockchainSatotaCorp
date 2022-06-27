@@ -251,7 +251,76 @@
 .fund__container-mb {
     display: none;
 }
+/* @media screen and (max-width: 400px) {
+    .APY__container-fluid {
+        width: 300px;
+    }
+} */
 
+@media screen and (max-width: 900px) {
+    .APY__container {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .APY__container-fluid {
+        display: block;
+        /* width: 800px; */
+        /* margin-right: 1rem; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .portfolio-funding__container {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .homebody__header {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .portfolio-funding__container {
+        flex-direction: column;
+        align-items: flex-end;
+        width: 90%;
+    }
+
+    .portfolio {
+        width: 100%;
+    }
+    .wrapper__assets-notify {
+        flex-wrap: wrap;
+    }
+
+    .fund__container {
+        margin: 2rem 0;
+    }
+
+    .graph__path img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolio-funding__container {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .wrapper__assets-notify {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
 
 @media screen and (max-width: 650px) {
     .homebody {
@@ -364,70 +433,5 @@
 
     .fund__container-mb {
         display: block;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .APY__container {
-        display: flex;
-        list-style: none;
-        padding-left: 0;
-        max-width: 100%;
-        overflow-x: auto;
-    }
-
-    .APY__container-fluid {
-        display: block;
-        /* width: 800px; */
-        /* margin-right: 1rem; */
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .portfolio-funding__container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .wrapper__assets-notify {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-}
-
-@media screen and (max-width: 1920px) {
-    .homebody__header {
-        width: 100%;
-        padding: 0 1rem;
-    }
-
-    .portfolio-funding__container {
-        flex-direction: column;
-        align-items: flex-end;
-        width: 90%;
-    }
-
-    .portfolio {
-        width: 100%;
-    }
-    .wrapper__assets-notify {
-        flex-wrap: wrap;
-    }
-
-    .fund__container {
-        margin: 2rem 0;
-    }
-
-    .graph__path img {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 2000px) {
-    .portfolio-funding__container {
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        width: 100%;
     }
 }
