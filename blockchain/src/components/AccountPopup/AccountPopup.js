@@ -37,7 +37,7 @@ export default function AccountPopup({ children, open, onClose }) {
                 <div className='line-acc line2'></div>
                 <a href='#' className='text'>Help Center</a>
                 <div className='line-acc line3'></div>
-                <a href='#' className='text'>Notifications</a>
+                <Link to='/Notification' className='text'>Notifications</Link>
                 <div className='line-acc line4'></div>
                 <a href='#' className='text sign-out'>Sign out</a>
             </div>
