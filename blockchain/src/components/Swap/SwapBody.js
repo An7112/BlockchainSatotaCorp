@@ -1,22 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { AiFillSetting } from "react-icons/ai";
 import "./Swap.css";
 import { images } from "../../constants";
 import "../HomeBody/HomeBody";
-
+import Network from "../Network/Network";
+import AccountPopup from '../AccountPopup/AccountPopup';
 // const Swap = ({ index, src, text }) => (
 function SwapBody({ index, src, text }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [popup, setPop] = useState(false);
+  const handleClickOpen=()=>{
+      setPop(!popup)
+  }
+  const handleClose=()=>{
+      setPop(false)
+  }
   return (
     <div className="homebody">
-      <div className="homebody__header">
+            <div className="homebody__header">
         <div className="homebody__head-logo">
           <img src={images.DynamicIcon} alt="dynamicicon" />
         </div>
-        <p className="homebody__header-title">Swap</p>
+        <p className="homebody__header-title">Pay</p>
         <div className="homebody__list">
-          <div className="homebody__list-item_ethereum">
+          <a href="#overlay" className="homebody__list-item_ethereum">
             <img src={images.Rectangle287} alt="rectangle" />
             <p className="homebody__list-item_ethereum-text">Ethereum</p>
+          </a>
+          <div id="overlay">
+            <Network />
           </div>
           <div className="homebody__list-item_notify">
             <img
@@ -33,7 +45,10 @@ function SwapBody({ index, src, text }) {
 
           <div className="dash" />
           <div className="homebody__list-item_avatar">
-            <img src={images.ProfilePic} alt="profile" />
+          <a><img src={images.ProfilePic} alt='profile' onClick={() => setIsOpen(true)} /></a>
+                        <AccountPopup open= {isOpen} onClose={() => setIsOpen(false)}>
+                            <AccountPopup/>
+                        </AccountPopup>
           </div>
         </div>
       </div>
@@ -63,10 +78,10 @@ function SwapBody({ index, src, text }) {
                   <p>Max</p>
                 </div>
               </div>
-              <div className="USDC">
-                <img src={images.Rectangle141} alt="rectangle141" />
+              <div className="USDC" onClick={handleClickOpen}>
+                <img src={images.USDC_Icon} alt="rectangle141" />
                 <p>USDC</p>
-                <img src={images.Dropdown} alt="dropdown" />
+                <img src={images.DropdownIcon} alt="dropdown" />
               </div>
             </div>
             <div className="Swap_AVAX">
@@ -76,9 +91,9 @@ function SwapBody({ index, src, text }) {
                 </div>
               </div>
               <div className="AVAX">
-                <img src={images.Rectangle237} alt="rectangle237" />
+                <img src={images.AVAXIcon} alt="rectangle237" />
                 <p>AVAX</p>
-                <img src={images.Dropdown} alt="dropdown" />
+                <img src={images.DropdownIcon} alt="dropdown" />
               </div>
             </div>
             <div className="Begin_Swap">
@@ -98,6 +113,77 @@ function SwapBody({ index, src, text }) {
               </div>
             </div>
           </div>
+          {/* table */}
+          {popup ?
+                <div className='table-model'>
+                    <div className='table'>
+                        <div className='table-header'>
+                            <p>Select Token</p>
+                            <div className='close__btn' onClick={handleClose}>
+                                X
+                            </div>
+                        </div>
+                        <div className='table-list'>
+                            <div className='table-list_item'>
+                                <div className='table-list_item-content'>
+                                    <div className='table-list_item-content-box1'>
+                                        <img src={images.USDC_Icon} alt="" />
+                                        <p>USD Coin</p>
+                                    </div>
+                                    <div className='table-list_item-content-box'>
+                                        <span>USDC</span>
+                                    </div>
+                                </div>
+                                <div className='table-list_item-content'>
+                                    <div className='table-list_item-content-box1'>
+                                        <img src={images.BUSD_Icon} alt="" />
+                                        <p>Binance USD</p>
+                                    </div>
+                                    <div className='table-list_item-content-box'>
+                                        <span>BUSD</span>
+                                    </div>
+                                </div>
+                                <div className='table-list_item-content'>
+                                    <div className='table-list_item-content-box1'>
+                                        <img src={images.USDT_Icon} alt="" />
+                                        <p>Tether</p>
+                                    </div>
+                                    <div className='table-list_item-content-box'>
+                                        <span>USDT</span>
+                                    </div>
+                                </div>
+                                <div className='table-list_item-content'>
+                                    <div className='table-list_item-content-box1'>
+                                        <img src={images.BTC_Icon} alt="" />
+                                        <p>Bitcoin</p>
+                                    </div>
+                                    <div className='table-list_item-content-box'>
+                                        <span>BTC</span>
+                                    </div>
+                                </div>
+                                <div className='table-list_item-content'>
+                                    <div className='table-list_item-content-box1'>
+                                        <img src={images.ETH_Icon} alt="" />
+                                        <p>Ethereum</p>
+                                    </div>
+                                    <div className='table-list_item-content-box'>
+                                        <span>ETH</span>
+                                    </div>
+                                </div>
+                                <div className='table-list_item-content'>
+                                    <div className='table-list_item-content-box1'>
+                                        <img src={images.BNB_Icon} alt="" />
+                                        <p>Binance Coin</p>
+                                    </div>
+                                    <div className='table-list_item-content-box'>
+                                        <span>BNB</span>
+                                    </div>
+                                </div>
+                                <p className='table-footer'>Scroll to load more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> : ""}
         </div>
       </div>
     </div>

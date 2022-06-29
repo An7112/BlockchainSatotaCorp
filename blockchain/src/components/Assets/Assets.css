@@ -16,7 +16,6 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    /* width: 200px; */
 }
 
 .assets__name-icon img {
@@ -125,5 +124,11 @@
     .assets__content-mb {
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .assets__interest {
+        flex: 1;
     }
 }

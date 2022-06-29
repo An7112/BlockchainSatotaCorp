@@ -6,7 +6,7 @@ import SwapBody from '../components/Swap/SwapBody';
 const Swap = () => (
     <div className='home'>
         <SideBar />
-        <SwapBody/>
+        <SwapBody />
     </div>
 );
 

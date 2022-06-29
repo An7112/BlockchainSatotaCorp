@@ -1,20 +1,24 @@
-import React from "react";
-import "./Vault.css";
+import React, { useState } from "react";
+import Network from "../Network/Network";
+import './Vault.css'
 import { images } from "../../constants";
-import "../HomeBody/HomeBody";
-import Button from "react-bootstrap/esm/Button";
-export default function VaultBody() {
+import AccountPopup from '../AccountPopup/AccountPopup';
+const VaultBody = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="homebody">
       <div className="homebody__header">
         <div className="homebody__head-logo">
           <img src={images.DynamicIcon} alt="dynamicicon" />
         </div>
-        <p className="homebody__header-title">Pay</p>
+        <p className="homebody__header-title">Vault</p>
         <div className="homebody__list">
-          <div className="homebody__list-item_ethereum">
+          <a href="#overlay" className="homebody__list-item_ethereum">
             <img src={images.Rectangle287} alt="rectangle" />
             <p className="homebody__list-item_ethereum-text">Ethereum</p>
+          </a>
+          <div id="overlay">
+            <Network />
           </div>
           <div className="homebody__list-item_notify">
             <img
@@ -31,7 +35,16 @@ export default function VaultBody() {
 
           <div className="dash" />
           <div className="homebody__list-item_avatar">
-            <img src={images.ProfilePic} alt="profile" />
+            <a>
+              <img
+                src={images.ProfilePic}
+                alt="profile"
+                onClick={() => setIsOpen(true)}
+              />
+            </a>
+            <AccountPopup open={isOpen} onClose={() => setIsOpen(false)}>
+              <AccountPopup />
+            </AccountPopup>
           </div>
         </div>
       </div>
@@ -82,7 +95,7 @@ export default function VaultBody() {
                 </div>
 
                 <div id="popup1" class="popup">
-                  <a href="/Vaults" class="close">
+                  <a href="/Vault" class="close">
                     &times;
                   </a>
                   <div className="TitleFunHead">
@@ -146,7 +159,7 @@ export default function VaultBody() {
               </div> */}
               </div>
               <div id="popup1" class="popup">
-                <a href="/Vaults" class="close">
+                <a href="/Vault" class="close">
                   &times;
                 </a>
                 <div className="TitleFunHead">
@@ -219,7 +232,7 @@ export default function VaultBody() {
                 </div> */}
               </div>
               <div id="popup1" class="popup">
-                <a href="/Vaults" class="close">
+                <a href="/Vault" class="close">
                   &times;
                 </a>
                 <div className="TitleFunHead">
@@ -293,7 +306,7 @@ export default function VaultBody() {
                 </div>
 
                 <div id="popup1" class="popup">
-                  <a href="/Vaults" class="close">
+                  <a href="/Vault" class="close">
                     &times;
                   </a>
                   <div className="TitleFunHead">
@@ -372,7 +385,7 @@ export default function VaultBody() {
               </div> */}
               </div>
               <div id="popup1" class="popup">
-                <a href="/Vaults" class="close">
+                <a href="/Vault" class="close">
                   &times;
                 </a>
                 <div className="TitleFunHead">
@@ -445,7 +458,7 @@ export default function VaultBody() {
                 </div> */}
               </div>
               <div id="popup1" class="popup">
-                <a href="/Vaults" class="close">
+                <a href="/Vault" class="close">
                   &times;
                 </a>
                 <div className="TitleFunHead">
@@ -490,4 +503,6 @@ export default function VaultBody() {
       </div>
     </div>
   );
-}
+};
+
+export default VaultBody;

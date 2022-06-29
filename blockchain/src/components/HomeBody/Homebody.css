@@ -1,186 +1,10 @@
-
 .homebody {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-left: 42.78px;
 }
-.dropdown {
-    position: absolute;
-    width: 360px;
-    height: 604px;
-    left: 1331px;
-    top: 82px;
-    right: 37px;
-    bottom: 431px;
-    background: #0E0E0E;
-    border: 2px solid #1C1C1C;
-    border-radius: 32px;
-    color: white;
-}
 
-.dropdown-rectangle {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 308px;
-    top: 22px;
-
-    border: 2px solid #1C1C1C;
-    border-radius: 500px;
-}
-
-.img-close {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-
-    left: 314px;
-    top: 28px;
-
-}
-
-
-.profile-pic {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 140px;
-    top: 37px;
-
-    border: 2px solid #474747;
-    border-radius: 500px;
-}
-
-.text-paren,
-.text-child {
-    position: absolute;
-    width: 172px;
-    height: 25px;
-    left: 94px;
-    right: 94px;
-    bottom: 425px;
-    top: 154px;
-
-    font-family: 'Brinnan';
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #FFFFFF;
-}
-
-.text-child {
-    width: 229px;
-    height: 25px;
-    left: 65px;
-    top: 190px;
-
-    font-weight: 400px;
-    font-size: 18px;
-    line-height: 21px;
-
-    color: #77838F;
-
-}
-
-.button-rectangle {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 207px;
-    height: 56px;
-    left: 76px;
-    top: 240px;
-
-    border: 1px solid #2F2F2F;
-    border-radius: 12px;
-}
-
-.text-settings {
-    position: absolute;
-    width: 155px;
-    height: 37px;
-    left: 102px;
-    top: 250px;
-    text-decoration: none;
-
-    font-family: 'Brinnan';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #FFFFFF;
-}
-
-.text,
-.doc {
-    position: absolute;
-    width: 143px;
-    height: 35px;
-    left: 37px;
-    top: 320px;
-    text-decoration: none;
-
-    font-family: 'Brinnan';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-
-    color: #FFFFFF;
-}
-
-.line-acc {
-    position: absolute;
-    width: 286px;
-    height: 0px;
-    left: 37px;
-    top: 367px;
-
-    border: 1px solid #2F2F2F;
-}
-
-.referrals {
-    top: 378px;
-}
-
-.line2 {
-    top: 426px;
-}
-
-.help-center {
-    top: 437px;
-}
-
-.line3 {
-    top: 485px;
-}
-
-.notifications {
-    top: 496px;
-}
-
-.line4 {
-    top: 541px;
-}
-
-.sign-out {
-    top: 552px;
-    color: #FF5C5C;
-}
 .homebody__head-logo {
     display: none;
 }
@@ -220,6 +44,16 @@
     border: 1px solid #1c1c1c;
     border-radius: 8px;
     cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+
+.homebody__header #overlay {
+    display: none;
+}
+
+#overlay:target {
+    display: block;
 }
 
 .homebody__list-item_ethereum:hover {
@@ -414,12 +248,14 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 1200px) {
-    .portfolio-funding__container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.fund__container-mb {
+    display: none;
 }
+/* @media screen and (max-width: 400px) {
+    .APY__container-fluid {
+        width: 300px;
+    }
+} */
 
 @media screen and (max-width: 900px) {
     .APY__container {
@@ -432,9 +268,57 @@
 
     .APY__container-fluid {
         display: block;
-        width: 800px;
+        /* width: 800px; */
         /* margin-right: 1rem; */
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .portfolio-funding__container {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .homebody__header {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .portfolio-funding__container {
+        flex-direction: column;
+        align-items: flex-end;
+        width: 90%;
+    }
+
+    .portfolio {
+        width: 100%;
+    }
+    .wrapper__assets-notify {
+        flex-wrap: wrap;
+    }
+
+    .fund__container {
+        margin: 2rem 0;
+    }
+
+    .graph__path img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolio-funding__container {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .wrapper__assets-notify {
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
 
@@ -506,6 +390,9 @@
 
     .wrapper__assets-notify {
         margin-bottom: 3rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .assets__container {
@@ -525,7 +412,7 @@
         justify-content: flex-end;
     }
 
-    .homebody__list p {
+    .homebody__list-item_ethereum-text {
         display: none;
     }
 
@@ -537,6 +424,14 @@
     }
 
     .notify__container {
+        margin: 3rem 0;
+    }
+
+    .fund__container {
         display: none;
+    }
+
+    .fund__container-mb {
+        display: block;
     }
 }

@@ -1,15 +1,18 @@
-import React from 'react';
+import React,{useState}  from 'react';
 
 import APY from '../APY/APY';
 import Portfolio from '../Portfolio/Portfolio';
 import Fund from '../Fund/Fund';
 import Assets from '../Assets/Assets';
 import Notify from '../Notify/Notify';
-
+import Network from '../Network/Network';
+import AccountPopup from '../AccountPopup/AccountPopup';
 import {images} from '../../constants';
 import './Homebody.css';
 
-const HomeBody = () => (
+function HomeBody () {
+    const [isOpen, setIsOpen] = useState(false);
+    return(
     <div className='homebody'>
         <div className='homebody__header'>
             <div className='homebody__head-logo'>
@@ -17,11 +20,14 @@ const HomeBody = () => (
             </div>
             <p className='homebody__header-title'>Home</p>
             <div className='homebody__list'>
-                <div className='homebody__list-item_ethereum'>
+                <a href='#overlay' className='homebody__list-item_ethereum'>
                     <img src={images.Rectangle287} alt='rectangle' />
                     <p className='homebody__list-item_ethereum-text'>
                         Ethereum
                     </p>
+                </a>
+                <div id='overlay'>
+                    <Network />
                 </div>
                 <div className='homebody__list-item_notify'>
                     <img
@@ -38,7 +44,10 @@ const HomeBody = () => (
 
                 <div className='dash' />
                 <div className='homebody__list-item_avatar'>
-                    <img src={images.ProfilePic} alt='profile' />
+                <a><img src={images.ProfilePic} alt='profile' onClick={() => setIsOpen(true)} /></a>
+                        <AccountPopup open= {isOpen} onClose={() => setIsOpen(false)}>
+                            <AccountPopup/>
+                        </AccountPopup>
                 </div>
             </div>
         </div>
@@ -55,7 +64,9 @@ const HomeBody = () => (
 
         <div className='portfolio-funding__container'>
             <Portfolio />
-            <Fund />
+            <div className='fund__container'>
+                <Fund />
+            </div>
         </div>
 
         <div className='btn__fund-vaults_mb'>
@@ -160,6 +171,10 @@ const HomeBody = () => (
                 </div>
             </div>
 
+            <div className='fund__container-mb'>
+                <Fund />
+            </div>
+
             <div className='notify__container'>
                 <p className='notify__title'>Notifications</p>
                 <Notify
@@ -185,6 +200,8 @@ const HomeBody = () => (
             </div>
         </div>
     </div>
-);
+    )
+    };
+
 
 export default HomeBody;

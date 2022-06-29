@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {images} from '../../constants';
-import { Link } from 'react-router-dom';
+
 import './SideBar.css';
 
 const SideBar = () => (
@@ -27,7 +28,7 @@ const SideBar = () => (
                     <p>Home</p>
                 </li>
                 </Link>
-                <Link to='/Vaults'>
+                <Link to='/Vault'>
                 <li className='sidebar__list-item'>
                     <img src={images.VaultsIcon} alt='VaultsIcon' />
                     <p>Vaults</p>
@@ -45,12 +46,10 @@ const SideBar = () => (
                     <p>Pay</p>
                 </li>
                 </Link>
-                <Link to='/More'>
                 <li className='sidebar__list-item'>
                     <img src={images.MoreIcon} alt='MoreIcon' />
                     <p>More</p>
                 </li>
-                </Link>
             </ul>
         </div>
     </>

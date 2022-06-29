@@ -21,13 +21,13 @@ const Assets = ({ src, title, sub, ...props }) => (
             <p className='assets__balance-sub'>{props.balanceSub}</p>
         </div>
 
-        <div classname='assets__interest'>
+        <div className='assets__interest'>
             <p className='assets__interest-price'>{props.interestPrice}</p>
             <p className='assets__interest-sub'>{props.interestSub} <span>Last 24 hours</span></p>
         </div>
 
         <div className='assets__allocation'>
-            <p classname='assets__allocation-percent'>{props.percent}</p>
+            <p className='assets__allocation-percent'>{props.percent}</p>
         </div>
 </div>
 )
