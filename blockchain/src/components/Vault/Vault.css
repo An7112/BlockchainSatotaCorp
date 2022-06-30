@@ -92,6 +92,7 @@
 }
 
 .usdc-item img {
+  left: 9rem;
     position: relative;
     top: -50px;
 }

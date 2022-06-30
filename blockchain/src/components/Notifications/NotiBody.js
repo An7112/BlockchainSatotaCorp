@@ -11,7 +11,7 @@ const NotiBody = () => {
         <div className="homebody__head-logo">
           <img src={images.DynamicIcon} alt="dynamicicon" />
         </div>
-        <p className="homebody__header-title">Pay</p>
+        <p className="homebody__header-title">Notifications</p>
         <div className="homebody__list">
           <a href="#overlay" className="homebody__list-item_ethereum">
             <img src={images.Rectangle287} alt="rectangle" />

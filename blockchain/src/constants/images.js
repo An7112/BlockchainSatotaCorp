@@ -36,7 +36,9 @@ import BUSD_Icon from '../assets/BUSD_Icon.png';
 import ETH_Icon from '../assets/ETH_Icon.png';
 import BNB_Icon from '../assets/BNB_Icon.png';
 import Rectangle146 from '../assets/Rectangle146.png';
+import Binance_Icon from '../assets/Binance_Icon.png'
 export default {
+    Binance_Icon,
     Rectangle146,
     BNB_Icon,
     ETH_Icon,
