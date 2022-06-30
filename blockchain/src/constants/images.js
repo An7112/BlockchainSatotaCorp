@@ -37,9 +37,25 @@ import ETH_Icon from '../assets/ETH_Icon.png';
 import BNB_Icon from '../assets/BNB_Icon.png';
 import Rectangle146 from '../assets/Rectangle146.png';
 import Binance_Icon from '../assets/Binance_Icon.png'
+import Whatsapp from '../assets/WhatsApp.png';
+import Telegram from '../assets/Telegram.png';
+import Intagram from '../assets/Intagram.png';
+import Discord from '../assets/Discord.png';
+import referrals_avata1 from '../assets/Referrals-avata1.png';
+import referrals_avata2 from '../assets/Referrals-avata2.png';
+import referrals_avata3 from '../assets/Referrals-avata3.png'
+import Edit from '../assets/Edit.png'
 export default {
     Binance_Icon,
+    Discord,
+    Edit,
+    Intagram,
+    Telegram,
+    Whatsapp,
     Rectangle146,
+    referrals_avata1,
+    referrals_avata2,
+    referrals_avata3,
     BNB_Icon,
     ETH_Icon,
     BTC_Icon,

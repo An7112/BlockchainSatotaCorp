@@ -81,7 +81,7 @@ function Settings() {
         <p className='settings-text text-ethereum'>Ethereum</p>
         <img src={images.Rectangle287} alt="" className='icon-setting ether'/>
         <img src={images.AVAXIcon} alt="" className='icon-setting avaxi'/>
-        <img src={images.BNB} alt="" className='icon-setting bnv'/>
+        <img src={images.Polygon} alt="" className='icon-setting bnv'/>
         <img src={images.MATICIcon} alt="" className='icon-setting matici' />
         <div className='settings-line line-settings-6'></div>
 
